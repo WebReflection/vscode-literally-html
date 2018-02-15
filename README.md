@@ -8,6 +8,8 @@ Compatible with more use cases than those exposed by [vscode-lit-html](https://g
 
 ## Usage
 
+If installing through VS Code is not enough, maybe the following is needed.
+
 ```sh
 # within your project
 npm install --save-dev literally-html
