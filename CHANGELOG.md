@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.0.1 - February 15, 2018
+- Added adopt and wire to the list of known words. TODO: maybe just drop the list all-together?
+
 ## 0.0.0 - February 15, 2018
 - Yo I heard you like html so I added syntax highlighting for html templates
 
