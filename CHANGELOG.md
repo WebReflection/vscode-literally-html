@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.0.0 - February 15, 2018
+- Yo I heard you like html so I added syntax highlighting for html templates
+
 ## 1.2.0 - January 29, 2018
 - Yo I heard you like html so I added syntax highlighting for lit html templates inside of html script blocks
 

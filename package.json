@@ -1,19 +1,19 @@
 {
-    "name": "lit-html",
-    "displayName": "lit-html",
-    "description": "Syntax highlighting for html inside of JavaScript and TypeScript tagged template strings",
-    "version": "1.2.0",
     "publisher": "bierner",
+    "name": "literally-html",
+    "displayName": "literally-html",
+    "description": "Syntax highlighting for html inside of JavaScript and TypeScript tagged template strings",
+    "version": "0.0.0",
     "icon": "docs/logo.png",
     "galleryBanner": {
         "color": "#fcfcfc",
         "theme": "light"
     },
     "repository": {
-        "url": "https://github.com/mjbvz/vscode-lit-html.git"
+        "url": "https://github.com/WebReflection/vscode-literally-html.git"
     },
     "bugs": {
-        "url": "https://github.com/mjbvz/vscode-lit-html/issues"
+        "url": "https://github.com/WebReflection/vscode-literally-html/issues"
     },
     "engines": {
         "vscode": "^1.15.0"
@@ -22,6 +22,8 @@
         "Languages"
     ],
     "keywords": [
+        "hyper-html",
+        "hyper",
         "lit-html",
         "javascript",
         "typescript",
@@ -40,7 +42,7 @@
                     "text.html.basic"
                 ],
                 "scopeName": "inline.lit-html",
-                "path": "./syntaxes/lit-html.json",
+                "path": "./syntaxes/literally-html.json",
                 "embeddedLanguages": {
                     "meta.embedded.block.html": "html"
                 }
@@ -55,7 +57,7 @@
                     "text.html.basic"
                 ],
                 "scopeName": "inline.lit-html.quoted.string.injection",
-                "path": "./syntaxes/lit-html-quoted-string-injection.json",
+                "path": "./syntaxes/literally-html-quoted-string-injection.json",
                 "embeddedLanguages": {
                     "meta.template.expression.ts": "typescript"
                 }

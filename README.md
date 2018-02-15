@@ -1,14 +1,25 @@
-[![](https://vsmarketplacebadge.apphb.com/version/bierner.lit-html.svg)](https://marketplace.visualstudio.com/items?itemName=bierner.lit-html)
+# literally HTML
 
-Adds syntax highlighting and language support for html inside of JavaScript and TypeScript tagged template strings, such as used in [lit-html](https://github.com/PolymerLabs/lit-html) and other frameworks.
+Adds syntax highlighting and language support for html inside of JavaScript and TypeScript tagged template strings.
 
-![](https://github.com/mjbvz/vscode-lit-html/raw/master/docs/example.gif)
-
+Compatible with more use cases than those exposed by [vscode-lit-html](https://github.com/mjbvz/vscode-lit-html).
 
 > **❗Important**: IntelliSense and language support requires VS Code 1.20+.
 
 ## Usage
-The lit-html extension adds highlighting and IntelliSense for lit-html template strings in JavaScript and TypeScript. It works out of the box when you use VS Code's built-in version of TypeScript.
 
-If you are [using a workspace version of typescript](https://code.visualstudio.com/Docs/languages/typescript#_using-newer-typescript-versions), you must currently configure the TS Server plugin manually by following [these instructions](https://github.com/Microsoft/typescript-lit-html-plugin#usage)
+```sh
+# within your project
+npm install --save-dev literally-html
 
+# create a jsconfig.json file with the following content
+echo '{
+  "compilerOptions": {
+    "plugins": [
+      {
+        "name": "typescript-lit-html-plugin"
+      }
+    ]
+  }
+}' > jsconfig.json
+```
