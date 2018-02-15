@@ -1,5 +1,5 @@
 {
-    "publisher": "bierner",
+    "publisher": "webreflection",
     "name": "literally-html",
     "displayName": "literally-html",
     "description": "Syntax highlighting for html inside of JavaScript and TypeScript tagged template strings",
@@ -22,12 +22,10 @@
         "Languages"
     ],
     "keywords": [
-        "hyper-html",
         "hyper",
-        "lit-html",
-        "javascript",
-        "typescript",
+        "lit",
         "html",
+        "javascript",
         "template"
     ],
     "contributes": {
