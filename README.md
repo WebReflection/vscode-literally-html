@@ -1,14 +1,30 @@
 # literally HTML
 
-Adds syntax highlighting and language support for html inside of JavaScript and TypeScript tagged template strings.
-
-Compatible with more use cases than those exposed by [vscode-lit-html](https://github.com/mjbvz/vscode-lit-html).
+A library agnostic fork of [vscode-lit-html](https://github.com/mjbvz/vscode-lit-html)
+which aim is to bring syntax highlighting and language support for HTML inside of
+any JavaScript and TypeScript tagged template strings.
 
 > **❗Important**: IntelliSense and language support requires VS Code 1.20+.
 
+### Example
+
+```js
+hyper(document.body)`
+  <div class=${model.class}>
+    ${model.greetings} !!!
+  </div>`;
+
+render`
+  <ul>
+    ${items.map(
+      item => html`<li>${item.value}</li>`
+    )}
+  </ul>`;
+```
+
 ## Usage
 
-If installing through VS Code is not enough, maybe the following is needed.
+If simply installing through VS Code is not enough, maybe the following could help.
 
 ```sh
 # within your project
