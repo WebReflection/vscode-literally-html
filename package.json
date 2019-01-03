@@ -54,8 +54,8 @@
                     "source.tsx",
                     "text.html.basic"
                 ],
-                "scopeName": "inline.lit-html.quoted.string.injection",
-                "path": "./syntaxes/literally-html-quoted-string-injection.json",
+                "scopeName": "inline.lit-html.string.injection",
+                "path": "./syntaxes/literally-html-string-injection.json",
                 "embeddedLanguages": {
                     "meta.template.expression.ts": "typescript"
                 }
