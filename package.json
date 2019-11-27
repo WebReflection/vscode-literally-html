@@ -3,7 +3,7 @@
     "name": "literally-html",
     "displayName": "literally-html",
     "description": "Syntax highlighting for html inside of JavaScript and TypeScript tagged template strings",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "icon": "docs/logo.png",
     "scripts": {
         "publish": "vsce publish"
